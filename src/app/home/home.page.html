@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      HCE test
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large"></ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <strong>{{text}}</strong>
+    <p> This is just a demo to see if a set value can be read by the NFC Reader </p>
+    <p> Value</p>
+    <ion-input type = "Text" [(ngModel)] ="accountNumber" ></ion-input>
+  </div>
+</ion-content>]
